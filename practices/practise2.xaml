@@ -1,0 +1,225 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="practise2" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="869.6,2542.4" sap2010:WorkflowViewState.IdRef="practise2_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities.Business</x:String>
+      <x:String>UiPath.Excel.Model</x:String>
+      <x:String>UiPath.Shared.Activities.Business</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="practise2" sap:VirtualizedContainerService.HintSize="880,2477.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Excel Process Scope" sap:VirtualizedContainerService.HintSize="817.6,2365.6" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_1">
+      <ueab:ExcelProcessScopeX.Body>
+        <ActivityAction x:TypeArguments="ui:IExcelProcess">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="ui:IExcelProcess" Name="ExcelProcessScopeTag" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="784,2279.2" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="721.6,2167.2" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" ResizeWindow="None" WorkbookPath="C:\Users\Varsha\Downloads\companydata.xlsx">
+              <ueab:ExcelApplicationCard.Body>
+                <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="688,1897.6" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ueab:ExcelForEachRowX DisplayName="For Each Excel Row" EmptyRowBehavior="Stop" HasHeaders="True" sap:VirtualizedContainerService.HintSize="625.6,1785.6" sap2010:WorkflowViewState.IdRef="ExcelForEachRowX_1" Range="[Excel.Sheet(&quot;Sheet1&quot;).Range(&quot;A1:C5&quot;)]" SaveAfterEachRow="False">
+                      <ueab:ExcelForEachRowX.Body>
+                        <ActivityAction x:TypeArguments="ue:CurrentRowQuickHandle, x:Int32">
+                          <ActivityAction.Argument1>
+                            <DelegateInArgument x:TypeArguments="ue:CurrentRowQuickHandle" Name="CurrentRow" />
+                          </ActivityAction.Argument1>
+                          <ActivityAction.Argument2>
+                            <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
+                          </ActivityAction.Argument2>
+                          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="592,1592.8" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="IfOpenedByAppBrowser" DisplayName="Use Browser Chrome: Core Watchlist feed - Screener" sap:VirtualizedContainerService.HintSize="529.6,1480.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="d7022953-634a-41c5-a667-f7e4aa84087a" Version="V2" WindowResize="Maximize">
+                              <uix:NApplicationCard.Body>
+                                <ActivityAction x:TypeArguments="x:Object">
+                                  <ActivityAction.Argument>
+                                    <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                                  </ActivityAction.Argument>
+                                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="496,1264" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                                    <Sequence.Variables>
+                                      <Variable x:TypeArguments="x:String" Name="marketcapvalue" />
+                                      <Variable x:TypeArguments="x:String" Name="pricevalue" />
+                                    </Sequence.Variables>
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                    <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'INPUT'" sap:VirtualizedContainerService.HintSize="433.6,156" sap2010:WorkflowViewState.IdRef="TypeInto_1" Text="[CurrentRow(&quot;Company name&quot;)+ &quot;[k(enter)]&quot;]">
+                                      <ui:TypeInto.Target>
+                                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="aa6c2af7-3e0f-4431-9fb4-3be6369e51de" InformativeScreenshot="4fd924e18d696b737f09cf55368d60f5" Selector="&lt;webctrl parentid='desktop-search' tag='INPUT' /&gt;">
+                                          <ui:Target.TimeoutMS>
+                                            <InArgument x:TypeArguments="x:Int32" />
+                                          </ui:Target.TimeoutMS>
+                                          <ui:Target.WaitForReady>
+                                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                                          </ui:Target.WaitForReady>
+                                        </ui:Target>
+                                      </ui:TypeInto.Target>
+                                    </ui:TypeInto>
+                                    <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey 'INPUT'" sap:VirtualizedContainerService.HintSize="433.6,157.6" sap2010:WorkflowViewState.IdRef="SendHotkey_1" Key="enter" KeyModifiers="None" SpecialKey="True">
+                                      <ui:SendHotkey.Target>
+                                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="1ba4b0f5-a8e2-4b40-89ac-1f72291f45e7" InformativeScreenshot="1f6195ce0d1768025e2c091825a3fd75" Selector="&lt;webctrl parentid='desktop-search' tag='INPUT' /&gt;">
+                                          <ui:Target.TimeoutMS>
+                                            <InArgument x:TypeArguments="x:Int32" />
+                                          </ui:Target.TimeoutMS>
+                                          <ui:Target.WaitForReady>
+                                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                                          </ui:Target.WaitForReady>
+                                        </ui:Target>
+                                      </ui:SendHotkey.Target>
+                                    </ui:SendHotkey>
+                                    <uix:NGetText DisplayName="Get Text 'Market Cap'" sap:VirtualizedContainerService.HintSize="433.6,157.6" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="d7022953-634a-41c5-a667-f7e4aa84087a" TextString="[marketcapvalue]" Version="V3">
+                                      <uix:NGetText.Target>
+                                        <uix:TargetAnchorable BrowserURL="https://www.screener.in/company/IDEA/consolidated/" CvType="AnyWordGroup" DesignTimeRectangle="389, 484, 59, 23" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'38,017'" FullSelectorArgument="&lt;webctrl class='number' parentid='top-ratios' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl class='number' parentid='top-ratios' tag='SPAN' type='' /&gt;" Guid="c99393ce-1ff4-4230-9a7a-aabdcd168d46" InformativeScreenshot="66559d72431cf2fec940e500c4b6e003.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Vodafone Idea Ltd financial results and price chart - Screener' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                                          <uix:TargetAnchorable.Anchors>
+                                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                              <uix:Target CvTextArgument="Market Cap" CvType="Text" DesignTimeRectangle="180, 481, 101, 29" ElementType="Text" FriendlyName="'Market Cap'" FullSelectorArgument="&lt;webctrl parentid='top-ratios' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='top-ratios' tag='SPAN' type='' class='name' aaname='          Market Cap        ' check:innerText='Market Cap' /&gt;" ImageBase64="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" SearchSteps="FuzzySelector, Image, CV" />
+                                            </scg:List>
+                                          </uix:TargetAnchorable.Anchors>
+                                        </uix:TargetAnchorable>
+                                      </uix:NGetText.Target>
+                                    </uix:NGetText>
+                                    <uix:NGetText DisplayName="Get Text 'Current Price'" sap:VirtualizedContainerService.HintSize="433.6,157.6" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="d7022953-634a-41c5-a667-f7e4aa84087a" TextString="[pricevalue]" Version="V3">
+                                      <uix:NGetText.Target>
+                                        <uix:TargetAnchorable BrowserURL="https://www.screener.in/company/IDEA/consolidated/" CvType="AnyWordGroup" DesignTimeRectangle="799, 484, 37, 23" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'7.80'" FullSelectorArgument="&lt;webctrl aaname='7.80' class='number' parentid='top-ratios' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl class='number' parentid='top-ratios' tag='SPAN' type='' /&gt;" Guid="7556c22e-0994-420d-b7ca-5136c3e8d442" InformativeScreenshot="a132f4b2a0535ded6c74a4fc672a63fc.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Vodafone Idea Ltd financial results and price chart - Screener' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                                          <uix:TargetAnchorable.Anchors>
+                                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                              <uix:Target CvTextArgument="Current Price" CvType="Text" DesignTimeRectangle="538, 481, 115, 29" ElementType="Text" FriendlyName="'Current Price'" FullSelectorArgument="&lt;webctrl aaname='          Current Price        ' class='name' parentid='top-ratios' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='          Current Price        ' class='name' parentid='top-ratios' tag='SPAN' type='' check:innerText='Current Price' /&gt;" ImageBase64="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" SearchSteps="FuzzySelector, Image, CV" />
+                                            </scg:List>
+                                          </uix:TargetAnchorable.Anchors>
+                                        </uix:TargetAnchorable>
+                                      </uix:NGetText.Target>
+                                    </uix:NGetText>
+                                    <ueab:WriteCellX AutoIncrementRow="True" Cell="[Excel.Sheet(&quot;Sheet1&quot;).Cell(&quot;B2&quot;)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="433.6,160" sap2010:WorkflowViewState.IdRef="WriteCellX_1" Value="[marketcapvalue]" />
+                                    <ueab:WriteCellX AutoIncrementRow="True" Cell="[Excel.Sheet(&quot;Sheet1&quot;).Cell(&quot;C2&quot;)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="433.6,160" sap2010:WorkflowViewState.IdRef="WriteCellX_2" Value="[pricevalue]" />
+                                  </Sequence>
+                                </ActivityAction>
+                              </uix:NApplicationCard.Body>
+                              <uix:NApplicationCard.TargetApp>
+                                <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAABUQAAAVEBKaLAYAAAAkxJREFUWEftl89OE1EYxa/zr9NWE0hcQP8gOpQFUlDGoqkNFt1oVWpdgCjBhSwsDQ0QI9EYEhBiQsvCt/EVfAFfp54zTpsuPkPIzOzmJr/M7Xwn3zl3cpPeq14090IH4wrQwbXq5+SDR/v28tKu/ZhwXmmnXNY8jdQgKBgaDVY66Y2DP6M9ieJre8kLITUIAgZXb4Lc8if7i2ROpp+Y76kRmwTBD2ABp7Jtn0jm5GbZ3KFGbBKEoQCFh037VDInk2WzTY3YJAiRB/ANLiL8AH5j7m5uMBpIsEZNAoQegI3TI+PqRu0oVX96mGwMw3esUQNsEF4ADK6eq8ssbtpbe79HehKsQZMFDBF6AH5ip9iwDiRzwho0U+AqiCRAYbZufZXMCWte08sGwKDBRUQTAONSOzuKAOnkqJpYOU80X54n28PUf6ZatyqJaWqAt7OjCJBxqvra1q90T6LcSuxDM9jZUQRw8ve0lmRO3E3rGJrBzo4iQCHnam3JnCxsWKe+MA4QB4gDxAHiAJEFcDJz2rZkTu6sWSe+kE2nbj///4mINWr62vsf7CPJnORd8yM0DsD1SKnaWFE7HJvTzkAHdPkcn9d+6Lp64wv5bziJ62Qj7xrfcwvGWfau0SWc8x1rnkap1EBbMo4nFlEvGV3Q4Tw7b3xDvQbo7d1SZ8AzQLO34J3/XAVVkAE8D1wHJfAKrAPqCOd8xxo1PMhIWvakB73oSe9/12jANFwpP3cf/qY5V08dT0VszOM3P3VfxznfsUZN/wQladmTXvBU+l9+x+Q1s05rCQAAAABJRU5ErkJggg==" InformativeScreenshot="a258401fc08b64cf8bd7978500bb0e4c.jpg" Selector="&lt;html app='chrome.exe' title='Core Watchlist feed - Screener' /&gt;" Title="Core Watchlist feed - Screener" Url="https://www.screener.in/dash/" />
+                              </uix:NApplicationCard.TargetApp>
+                            </uix:NApplicationCard>
+                          </Sequence>
+                        </ActivityAction>
+                      </ueab:ExcelForEachRowX.Body>
+                    </ueab:ExcelForEachRowX>
+                  </Sequence>
+                </ActivityAction>
+              </ueab:ExcelApplicationCard.Body>
+            </ueab:ExcelApplicationCard>
+          </Sequence>
+        </ActivityAction>
+      </ueab:ExcelProcessScopeX.Body>
+    </ueab:ExcelProcessScopeX>
+  </Sequence>
+</Activity>

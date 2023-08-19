@@ -1,0 +1,179 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "MAIN1.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "stringallerror&Sequence_2",
+        "allrows&Sequence_2",
+        "allerror&Sequence_2",
+        "stringcompleted&Sequence_2",
+        "filtercomplete&Sequence_2",
+        "allrowdata&Sequence_2",
+        "alldata&Sequence_2",
+        "stringalldata&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "practise2.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "pricevalue&Sequence_5",
+        "marketcapvalue&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "practise3.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "variable1&Sequence_1",
+        "status&Sequence_1",
+        "pricevalue&Sequence_1",
+        "marketcapvalue&Sequence_1",
+        "status&Sequence_14"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "selector.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "cityname&Sequence_2",
+        "temp&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "practise2trying_updated.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "allrow&Sequence_14",
+        "stringallrow&Sequence_14"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "trycatch3.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "errormsg&Sequence_16",
+        "status&Sequence_10",
+        "exist&Sequence_16",
+        "marketcapvalue&Sequence_10",
+        "pricevalue&Sequence_10"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "example.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "value&Sequence_8",
+        "stringmarketcap&Sequence_8",
+        "currentprice&Sequence_8",
+        "marketcapvalue&Sequence_8",
+        "cmpyname&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "MAIN2.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "pricevalue&Sequence_1",
+        "marketcapvalue&Sequence_1",
+        "output&Sequence_1",
+        "alldata&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "practice3_trycatch.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "status&Sequence_1",
+        "pricevalue&Sequence_3",
+        "marketcapvalue&Sequence_3",
+        "output&Sequence_1",
+        "alldata&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "trycatch_excelapplication.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "outputerror&Sequence_2",
+        "msgerror&Sequence_2",
+        "marketcapeerror&Sequence_2",
+        "priceerror&Sequence_2",
+        "status&Sequence_3",
+        "excelpath&Sequence_2",
+        "alldata&Sequence_2",
+        "output&Sequence_2",
+        "marketcapvalue&Sequence_2",
+        "pricevalue&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "MAIN3.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "inputdb&Sequence_1",
+        "pricevalue&Sequence_1",
+        "marketcapvalue&Sequence_1",
+        "excel_path&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "MAIN4.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
